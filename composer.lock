@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "76399b28d5dbc02a5a7df48d3270cb54",
+    "content-hash": "7f5bb8133a7ac3f479e281ec16de2117",
     "packages": [
         {
             "name": "brick/math",
@@ -1835,10 +1835,16 @@
         {
             "name": "madbob/larastrap",
             "version": "dev-old-array",
+            "source": {
+                "type": "git",
+                "url": "https://gitlab.com/dansleboby/larastrap.git",
+                "reference": "79d5696a8d3d999d37de0934054cf2f41c7b2e06"
+            },
             "dist": {
-                "type": "path",
-                "url": "C:/Users/Gilbert/Documents/Project/larastrap",
-                "reference": "e6d549326daee14909f268882cf68288e2b08741"
+                "type": "zip",
+                "url": "https://gitlab.com/api/v4/projects/dansleboby%2Flarastrap/repository/archive.zip?sha=79d5696a8d3d999d37de0934054cf2f41c7b2e06",
+                "reference": "79d5696a8d3d999d37de0934054cf2f41c7b2e06",
+                "shasum": ""
             },
             "require-dev": {
                 "friendsofphp/php-cs-fixer": "^3.39",
@@ -1900,9 +1906,10 @@
                 "bootstrap5",
                 "laravel"
             ],
-            "transport-options": {
-                "relative": false
-            }
+            "support": {
+                "source": "https://gitlab.com/dansleboby/larastrap/-/tree/old-array"
+            },
+            "time": "2024-05-16T10:28:06-04:00"
         },
         {
             "name": "monolog/monolog",
@@ -6234,16 +6241,16 @@
         },
         {
             "name": "mockery/mockery",
-            "version": "1.6.11",
+            "version": "1.6.12",
             "source": {
                 "type": "git",
                 "url": "https://github.com/mockery/mockery.git",
-                "reference": "81a161d0b135df89951abd52296adf97deb0723d"
+                "reference": "1f4efdd7d3beafe9807b08156dfcb176d18f1699"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mockery/mockery/zipball/81a161d0b135df89951abd52296adf97deb0723d",
-                "reference": "81a161d0b135df89951abd52296adf97deb0723d",
+                "url": "https://api.github.com/repos/mockery/mockery/zipball/1f4efdd7d3beafe9807b08156dfcb176d18f1699",
+                "reference": "1f4efdd7d3beafe9807b08156dfcb176d18f1699",
                 "shasum": ""
             },
             "require": {
@@ -6313,7 +6320,7 @@
                 "security": "https://github.com/mockery/mockery/security/advisories",
                 "source": "https://github.com/mockery/mockery"
             },
-            "time": "2024-03-21T18:34:15+00:00"
+            "time": "2024-05-16T03:13:13+00:00"
         },
         {
             "name": "myclabs/deep-copy",
