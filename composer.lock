@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "7f5bb8133a7ac3f479e281ec16de2117",
+    "content-hash": "d883f2fae1536a2292746fadfcae3904",
     "packages": [
         {
             "name": "brick/math",
@@ -1834,16 +1834,16 @@
         },
         {
             "name": "madbob/larastrap",
-            "version": "dev-old-array",
+            "version": "dev-casted-array",
             "source": {
                 "type": "git",
                 "url": "https://gitlab.com/dansleboby/larastrap.git",
-                "reference": "79d5696a8d3d999d37de0934054cf2f41c7b2e06"
+                "reference": "18d49a85f254a7acd773ea1fe2e1d2731b048c62"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://gitlab.com/api/v4/projects/dansleboby%2Flarastrap/repository/archive.zip?sha=79d5696a8d3d999d37de0934054cf2f41c7b2e06",
-                "reference": "79d5696a8d3d999d37de0934054cf2f41c7b2e06",
+                "url": "https://gitlab.com/api/v4/projects/dansleboby%2Flarastrap/repository/archive.zip?sha=18d49a85f254a7acd773ea1fe2e1d2731b048c62",
+                "reference": "18d49a85f254a7acd773ea1fe2e1d2731b048c62",
                 "shasum": ""
             },
             "require-dev": {
@@ -1907,9 +1907,9 @@
                 "laravel"
             ],
             "support": {
-                "source": "https://gitlab.com/dansleboby/larastrap/-/tree/old-array"
+                "source": "https://gitlab.com/dansleboby/larastrap/-/tree/casted-array"
             },
-            "time": "2024-05-16T10:28:06-04:00"
+            "time": "2024-05-16T22:56:23-04:00"
         },
         {
             "name": "monolog/monolog",

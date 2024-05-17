@@ -18,6 +18,21 @@ class DatabaseSeeder extends Seeder
         User::factory()->create([
             'name' => 'Test User',
             'email' => 'test@example.com',
+            'options' => [
+                'key' => 'value',
+                'key2' => 'value2',
+                'root' => [
+                    'child1' => [
+                        'child2' => [
+                            'child3' => [
+                                'child4' => [
+                                    'text' => 'value'
+                                ]
+                            ]
+                        ]
+                    ]
+                ],
+            ]
         ]);
     }
 }

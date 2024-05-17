@@ -87,6 +87,18 @@
                 <h2>Ridiculous field (root -> child1 -> child2 -> child3 -> child4 -> NAME)</h2>
                 <x-larastrap::text name="root.child1.child2.child3.child4.text" label="Text" />
             </x-larastrap::form>
+
+            <h1>Exemple from object</h1>
+            <x-larastrap::form method="POST" action="{{route('home')}}" :obj="\App\Models\User::first()">
+                <x-larastrap::text name="name" label="Name" />
+                <x-larastrap::email name="email" label="Email" />
+                <x-larastrap::password name="password" label="Password" />
+
+                <h2>Options</h2>
+                <x-larastrap::text name="options.key" label="Key" />
+                <x-larastrap::text name="options.key2" label="Key 1" />
+                <x-larastrap::text name="options.root.child1.child2.child3.child4.text" label="Root -> Child1 -> Child2 -> Child3 -> Child4 -> Text" />
+            </x-larastrap::form>
         </div>
         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
